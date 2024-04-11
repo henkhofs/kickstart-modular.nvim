@@ -1,11 +1,4 @@
--- You can add your own plugins here or in other files in this directory!
---  I promise not to create any merge conflicts in this directory :)
---
--- See the kickstart.nvim README for more information
 return {
-  {
-    'ThePrimeagen/vim-be-good',
-  },
   {
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',
@@ -32,8 +25,8 @@ return {
       },
     },
     config = function()
-      vim.keymap.set('n', '<leader>el', '<cmd>:Neotree filesystem reveal left<CR>', { desc = 'Neotree reveal filesystem left' })
-      vim.keymap.set('n', '<leader>ec', '<cmd>:Neotree filesystem close <CR>', { desc = 'Neotree close filesystem' })
+      vim.keymap.set('n', '<leader>xl', '<cmd>:Neotree filesystem reveal left<CR>', { desc = 'Neotree reveal filesystem left' })
+      vim.keymap.set('n', '<leader>xc', '<cmd>:Neotree filesystem close <CR>', { desc = 'Neotree close filesystem' })
     end,
   },
 }
