@@ -107,10 +107,20 @@ return {
             -- set group index to 0 to skip loading LuaLS completions as lazydev recommends it
             group_index = 0,
           },
+          -- Copilot Source
+          { name = 'copilot', group_index = 2 },
+          -- Other Sources
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
           { name = 'path' },
         },
+        -- formatting = {
+        --   format = lspkind.cmp_format {
+        --     mode = 'symbol',
+        --     max_width = 50,
+        --     symbol_map = { Copilot = '' },
+        --   },
+        -- },
       }
     end,
   },

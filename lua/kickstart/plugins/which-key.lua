@@ -64,8 +64,10 @@ return {
         { '<leader>w', group = '[W]orkspace' },
         { '<leader>t', group = '[T]oggle' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
+        { '<leader>x', group = 'e[X]plorer' },
       },
     },
+
   },
 }
 -- vim: ts=2 sts=2 sw=2 et
